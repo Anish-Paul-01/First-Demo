@@ -9,6 +9,11 @@ int main(int argc, char const *argv[])
     {
         printf("Hello World! \n");
     }
-    printf("We are Going to say 'Namaste World!' ");
+    printf("We are Going to say 'Namaste World!' \n");
+     for (int i = 0; i < (2*n); i++)
+    {
+        printf("Namaste World! This is INDIA \n");
+    }
+
     return 0;
 }
