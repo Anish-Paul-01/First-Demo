@@ -2,6 +2,13 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Hello World");
+    int n;
+    printf("Enter any number to repeat 'Hello World!': ");
+    scanf("%d",&n);
+    for (int i = 0; i < n; i++)
+    {
+        printf("Hello World! \n");
+    }
+    
     return 0;
 }
