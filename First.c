@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
     {
         printf("Hello World! \n");
     }
+    printf("We are Going to say 'Namaste World!' ");
     return 0;
 }
